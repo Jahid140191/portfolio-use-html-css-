@@ -1,0 +1,390 @@
+/*responsive code*/
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1270px) {
+
+    .work-sec {
+        display: contents;
+    }
+
+    .work-sec img {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .navbar-sec img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #name {
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .navbar-sec a {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .main-container h1 {
+        font-size: 4rem;
+    }
+
+    .about-sec h2,
+    .skill-sec h2,
+    .portfolio-sec h2,
+    .contact-sec h2 {
+        font-size: 1.5rem;
+        margin-top: -50px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .about-sec h2::after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        background: #ff6830;
+        top: 28px;
+        right: 46px
+    }
+
+    .about-sec .main-column {
+        display: contents;
+    }
+
+    .right-column button {
+        padding: 10px 22px;
+        left: 0;
+        top: 27px;
+    }
+
+    .main-column .left-column {
+        width: 80%;
+    }
+
+    .main-column .right-column {
+        margin-top: 50px;
+    }
+
+
+    .skill-sec h2::after {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 3px;
+        background: #ff6830;
+        top: 28px;
+        right: 11px;
+    }
+
+    .contact-sec h2::after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        background: #ff6830;
+        top: 28px;
+        right: 25px
+    }
+
+    .portfolio-sec h2::after {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        background: #ff6830;
+        top: 28px;
+        right: -11px
+    }
+
+    .contact-left-column p {
+        line-height: 40px;
+    }
+
+    .contact-right-column {
+        text-align: center;
+    }
+
+    .contact-right-column button {
+        padding: 10px 19px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 815px) {
+
+    .main-container {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 70vh;
+    }
+
+    .navbar-container {
+        position: absolute;
+        width: 100%;
+    }
+
+    .navbar-sec img {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    #name {
+        font-size: 2rem;
+    }
+
+    .navbar-sec a {
+        font-size: 1.2rem;
+
+    }
+
+    .main-container h1 {
+        font-size: 3rem;
+    }
+
+    .about-sec h2,
+    .skill-sec h2,
+    .portfolio-sec h2,
+    .contact-sec h2 {
+        margin-top: -41px;
+    }
+
+    .home-sec {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-sec::before {
+        height: 80vh;
+        ;
+    }
+
+    .main-column .right-column {
+        width: 100%;
+    }
+
+    .info-sec {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-sec strong {
+        width: 75%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .info-sec span {
+        font-size: 15px;
+    }
+
+    .text-sec p {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .text-sec h2 {
+        font-size: 3rem;
+    }
+
+    .text-animation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-card {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .work-text {
+        position: absolute;
+        margin-top: 24px;
+    }
+
+    .work-text::after {
+        width: 303px;
+    }
+
+    .card-sec p {
+        display: none;
+    }
+
+    .card-sec {
+        display: block;
+    }
+
+    .card strong {
+        margin-top: 30px;
+    }
+
+    .contact-main-column {
+        display: contents;
+    }
+
+    .contact-left-column {
+        text-align: center;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .progress-bar span {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .input-sec {
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 326px) {
+
+    .text-sec span {
+        font-size: 2rem;
+    }
+
+    #txt2 {
+        position: relative;
+        top: 37px;
+    }
+
+    .text-sec label {
+        margin-top: -17px;
+    }
+
+    .text-sec h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .work-card img {
+        width: 95%;
+    }
+
+    .work-text {
+        width: 78%;
+    }
+
+    .work-text::after {
+        width: 98%;
+    }
+
+    .work-text h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .work-text P {
+        width: 82%;
+        font-size: 14px;
+    }
+
+    .main-container h1 {
+        font-size: 2rem;
+    }
+
+    .about-sec h2,
+    .skill-sec h2,
+    .portfolio-sec h2,
+    .contact-sec h2 {
+        font-size: 16px;
+        margin-top: -28px;
+        margin-bottom: 25px;
+    }
+
+    .about-sec h2::after {
+        height: 2px;
+        top: 20px;
+        right: 15px;
+    }
+
+    .skill-sec h2::after {
+        height: 2px;
+        top: 20px;
+        right: -2px;
+    }
+
+    .portfolio-sec h2::after {
+        height: 2px;
+        width: 50px;
+        top: 20px;
+        right: -6px;
+    }
+
+    .contact-sec h2::after {
+        width: 65px;
+        height: 2px;
+        top: 20px;
+        right: 13px;
+    }
+
+    .card {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .card label {
+        font-size: 17px;
+        font-weight: 400;
+        width: 75%;
+    }
+
+    .card strong {
+        font-size: 21px;
+    }
+
+    .card span {
+        font-size: 15px;
+    }
+
+    .contact-main-column .contact-left-column {
+        width: 100%;
+    }
+
+    .contact-right-column {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .contact-right-column p {
+        font-size: 24px;
+    }
+
+    .input-sec {
+        width: 100%;
+        display: flex;
+    }
+
+    #txt-email {
+        width: 100%;
+        overflow: auto;
+    }
+
+}
